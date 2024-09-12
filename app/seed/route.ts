@@ -102,9 +102,9 @@ async function seedRevenue() {
 }
 
 export async function GET() {
-  return Response.json({
+  const result = Response.json({
     message:
-      'Database is connected',
+      'Uncomment this file and remove this line. You can delete this file when you are finished.',
   });
   try {
     await client.sql`BEGIN`;
